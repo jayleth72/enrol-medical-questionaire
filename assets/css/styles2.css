@@ -1,0 +1,188 @@
+/*  CUSTOM CSS */
+
+.navbar-default {
+    background-color: #ffbf80;
+    margin-bottom: 0px;
+
+ }
+
+
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-nav > li > a{
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.lees-logo {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+/* Body
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  background-color: #808080;
+  margin-bottom: 200px;
+  /*background: url('../images/noisy.png');*/
+  font-family: 'Open Sans', 'Helvetica Nue', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialised;
+	text-rendering: optimizelegibility;
+}
+
+body h1 {
+    font-family: a
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+#footer a {
+  color: #9af7fe;
+}
+#footer a:hover, a:focus {
+  color: #ffbf80;
+}
+
+#footer {
+  position: absolute;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+  bottom: 0;
+  font-family: proxima-nova;
+  background-color: #000;
+}
+
+#footer h4{
+    text-transform: uppercase;
+}
+
+
+/* Screen size modifications
+-------------------------------------------------- */
+
+@media only screen and (min-width:1px) and (max-width: 407px)  {
+
+body {
+        margin-bottom: 350px;
+    }
+
+#carousel-container {
+    width: 100%;
+
+}
+
+ #footer {
+        height: 450x;
+    }
+}
+
+.intro-text {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width:408px) and (max-width: 768px)  {
+
+ body {
+        margin-bottom: 375px;
+ }
+
+#carousel-container {
+    width: 80%;
+}
+
+ #footer {
+        height: 350px;
+    }
+}
+@media only screen and (min-width:769px)   {
+body {
+        margin-bottom: 225px;
+}
+
+#carousel-container {
+    width: 60%;
+}
+
+#footer {
+        height: 200px;
+    }
+}
+
+/* Forms
+-------------------------------------------------- */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+    color: #666;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 12px;
+}
+
+
+
+/* Home Page
+-------------------------------------------------- */
+.intro-text p{
+  line-height: 30px
+}
+
+.intro-text a{
+  color: #ffbf80;
+  text-decoration: none;
+}
+
+.intro-text a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.intro-text p::first-letter {
+
+    font-size: 250%;
+    color: #ffbf80;
+    font-family: cursive;
+}
+
+#lee-painting{
+  float: right;
+  width: 175px;
+  height: 110px;
+}
+
+#lee-signature{
+  float: right;
+  padding-right: 30px;
+  width: 25%;
+
+}
